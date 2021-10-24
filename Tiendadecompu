@@ -1,0 +1,45 @@
+CÓDIGO CON REGISTROS PARA UNA EMPRESA DE VENTA DE COMPUTADORAS:
+Use Mydb;
+create table Empleados{
+Id de empleados float(5), nombre varchar (5), dirección varchar(5),telefono int(5), email int varchar(5),
+Puesto
+varchar(5), salario float(5), horario float(5),RFC float(5),Bono int(5);}
+INSERT INTO Empleados
+(Id de empleados , nombre, dirección ,telefono , email, Puesto, salario ,horario,RFC ,Bono);
+create table Ventas{
+Id de venta float(5), Id empleado float(5),Id cliente float(5), costo float(5),cantidad int(5),código barras
+int(5), fecha ventas int(5), horario int(5),Día varchar(5), Fecha elaboración int(5);}
+INSERT INTO Ventas
+(Id de venta , Id empleado ,Id cliente , costo ,cantidad ,código barras , fecha ventas , horario ,Día , 
+Fecha elaboración);
+create table Clientes{
+Id cliente int(5),Nombre varchar(5), RFC int(5), Dirección varchar(5), Gmail varchar(5),
+Numero de telefono int(5) Whatsapp int(5), Twitter varchar(5), Facebook varchar(5), Horario compra 
+int(5);}
+INSERT INTO Clientes
+(Id cliente ,Nombre , RFC , Dirección, Gmail,Numero de telefono,Whatsapp , Twitter, Facebook, 
+Horario compra);
+create table Gastos{
+Id gastos int(5),Mantenimiento varchar(5), Id compra int(5), Id acces int(5), Reparaciónes varchar(5),
+Compra int(5), Devoluciones varchar(5), Total int(5), Salarios int(5), IVA float(5);}
+INSERT INTO Gastos
+(Id gastos ,Mantenimiento , Id compra , Id acces , Reparaciónes,
+Compra, Devoluciones, Total, Salarios, IVA);
+create table Componentes{
+Id compra int(5),Precio coin int(5), Precio venta int(5), Cantidad int(5), Fecha vent int(5), Ganancia 
+float(5), Dicipador varchar(5),Cantidad int(5), Tipo de grafica varchar(5);}
+INSERT INTO Componentes
+Id compra ,Precio coin, Precio venta, Cantidad , Fecha vent , Ganancia , Dicipador,Cantidad , Tipo de 
+grafica 5);
+create table Computadoras{
+Id compu int(5), Fecha varchar(5), Elaboración varchar(5),Costo venta int(5), Ganancia int(5), 
+Dicipador varchar(5), Cantidad int(5), Tipo de procesador varchar(5),Gráfica varchar(5), Inversión 
+int(5);}
+INSERT INTO Computadoras
+Id compu, Fecha, Elaboración (5),Costo venta , Ganancia , Dicipador(5), Cantidad , Tipo de procesador
+,Gráfica, Inversión );
+create table Accesorios{
+Id acces int(5), Ram int(5), Gráficas int(5), Procesador varchar(5), Disco duro int(5), Gabinetes varchar
+(5),Cantidad int(5), TipoAcces varchar(5), Tamaño float(5), SDD int(5);}
+INSERT INTO Accesorios
+Id acces, Ram , Gráfica, Procesador , Disco duro , Gabinetes,Cantidad , TipoAcces, Tamaño , SDD )
